@@ -1,0 +1,106 @@
+/*  ids 
+
+header {color:white;background-color: vermelho; display:flex}
+
+#icones{}
+
+#sec1 {background-image: url(img/pc.png); color:white}
+
+#sec1 a {background-color: vermelho}
+#sec1 h1{}
+#sec1 p{}
+#botao1
+
+
+#sec2
+#textoSec2o
+
+
+#sec3
+
+.caixaSec3{}
+botao2
+
+
+footer{}
+
+*/
+
+:root {
+    
+    --verlmelho1: linear-gradient(180deg, #EE5253 0%, #D92223 100%);
+    --vermelho2:#EE5253;
+    --verde:#10AC84;
+    --cinza:#EAEAEA;
+  
+     }
+
+
+  * {
+      margin: 0;
+      padding: 0;
+    }
+
+    header{
+        color:white;
+        background-color: var(--vermelho2); 
+        height:80px;
+        display:flex;
+        
+    }
+
+    
+    header p{
+        font-style:  bold;
+        font-weight: 700;
+        font-size:  30px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        margin-top: 23px;
+        margin-left: 27px;
+    }
+
+    /*colocar os icones!*/
+
+
+    #sec1 {
+        height: 946px;
+        background-image: url("img/pc.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position:center;
+        color:white;
+        /*falta colocar cor rgba(0,0,0,0.8) por cima da imagem*/
+
+
+        }
+
+        #sec1 p{
+            font-size:30px;
+            padding-top: 292px;
+            padding-left: 59px;
+        
+        }
+        #sec1 h1{
+            font-size: 80px;
+            font-weight: 700;
+            line-height: 94px;
+            line-height: 100%;
+            padding-left: 59px;
+
+            /*ver quebra de linha do h1*/
+        }
+
+        #sec1 button{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            Font-size: 22px;
+            background-color: var(--vermelho2);
+            color: white;
+            height: 60px;
+            width: 290px;
+            margin-left: 62px;
+            margin-top: 41px;
+            border-radius: 8px;
+        }
+
+
+       
