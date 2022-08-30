@@ -1,30 +1,3 @@
-/*  ids 
-
-header {color:white;background-color: vermelho; display:flex}
-
-#icones{}
-
-#sec1 {background-image: url(img/pc.png); color:white}
-
-#sec1 a {background-color: vermelho}
-#sec1 h1{}
-#sec1 p{}
-#botao1
-
-
-#sec2
-#textoSec2o
-
-
-#sec3
-
-.caixaSec3{}
-botao2
-
-
-footer{}
-
-*/
 
 :root {
     
@@ -62,7 +35,7 @@ footer{}
     /*colocar os icones!*/
 
 
-    #sec1 {
+        #sec1 {
         height: 946px;
         background-image: url("img/pc.png");
         background-repeat: no-repeat;
@@ -100,6 +73,7 @@ footer{}
             margin-left: 62px;
             margin-top: 41px;
             border-radius: 8px;
+            border: none;
         }
 
         #sec2{
@@ -158,7 +132,14 @@ footer{}
             margin-left: 233px;
             align-items: center;
         }
+        
 
+
+
+        #caixa2Form{
+            margin-left:22px;
+            margin-right: 22px;
+        }
      
         .labInp {
             display: flex;
@@ -180,12 +161,23 @@ footer{}
             color: white;
             height: 60px;
             width: 290px;
-            margin-left: 62px;
-            margin-top: 41px;
+            border: none;
             border-radius: 8px;
+            margin-top: 22px;
         }
+
+           
+ 
+
 
         footer{
             height: 90px;
             background-color: var(--cinza);
+        }
+
+        #footerP{
+            font-size: 14px;
+            line-height: 20px;
+            padding-top: 30px;
+            text-align: center;
         }
