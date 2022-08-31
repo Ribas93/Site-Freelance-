@@ -1,7 +1,6 @@
 
 :root {
-    
-    --verlmelho1: linear-gradient(180deg, #EE5253 0%, #D92223 100%);
+    --vermelho1: linear-gradient(180deg, #EE5253 50%, #D92223 100%); 
     --vermelho2:#EE5253;
     --verde:#10AC84;
     --cinza:#EAEAEA;
@@ -17,7 +16,7 @@
 
     header{
         color:white;
-        background-color: var(--vermelho2); 
+        background-image: var(--vermelho1);
         height:80px;
         display:flex;
         justify-content: space-between; 
@@ -32,20 +31,34 @@
         margin-left: 27px;
     }
 
-    /*colocar os icones!*/
+
+    header div{
+        padding-right: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .icones{
+        font-size: 30px;
+    }
+
+    #inst{
+        margin: auto 20px;
+    }
 
 
         #sec1 {
         height: 946px;
-        background-image: url("img/pc.png");
+        background-image:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.7)), url("img/pc.png");
         background-repeat: no-repeat;
         background-size: cover;
         background-position:center;
         color:white;
-        /*falta colocar cor rgba(0,0,0,0.8) por cima da imagem*/
-
-
         }
+
+
+        
 
         #sec1 p{
             font-size:30px;
@@ -60,7 +73,7 @@
             line-height: 100%;
             padding-left: 59px;
 
-            /*ver quebra de linha do h1*/
+            
         }
 
         #sec1 button{
@@ -96,6 +109,7 @@
             font-style: bold;
 
         }
+
         
         #textoSec2 p{
             margin-top: 41px;
@@ -107,13 +121,20 @@
             width: 504px;
         }
        
+        #faixaSec2 {
+            
+            position:absolute ;
+            height: 22px;
+            width:100%;
+            background-image:linear-gradient(360deg, #f5f2f2, #3e3737);
+        }
 
         #sec3 {
             height:403px;
         }
 
         #sec3 h2{
-            padding-top: 71px;
+            padding-top: 88px;
             padding-left: 233px;
             font-size: 50px;
             font-style: bold;
@@ -171,7 +192,8 @@
 
         footer{
             height: 90px;
-            background-color: var(--cinza);
+            background-image: linear-gradient(360deg, var(--cinza), #cbcbcb);
+
         }
 
         #footerP{
