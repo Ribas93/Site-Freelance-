@@ -41,11 +41,20 @@
     
     .icones{
         font-size: 30px;
+        margin: auto 10px;
     }
 
-    #inst{
-        margin: auto 20px;
+    .icones:hover{
+     font-size: 200%;
+     cursor: pointer;
     }
+    
+
+
+
+
+
+
 
 
         #sec1 {
