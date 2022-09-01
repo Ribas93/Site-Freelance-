@@ -88,6 +88,7 @@ header
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;   
+    padding: 50px 50px 0 50px;
 }
         
 .section_2 img
@@ -110,6 +111,7 @@ header
     font-size: 22px;
     height: 150px;
     width: 504px;
+    margin: 20px auto;
 }
  
 .section_3 
@@ -117,7 +119,8 @@ header
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 20px;
+    align-items: center;
+    padding: 100px;
 } 
 
 .section_3 h2
@@ -125,14 +128,14 @@ header
     font-size: 50px;
     font-style: bold;
     line-height:59px;
-    margin: 20px 145px;
+    /*margin: 20px 170px;*/
 }
 
         
 .section_3 p
 {
-    font-size: 22px;
-    margin: 10px 145px;
+    font-size: 25px;
+    margin: 10px auto 30px
 }
 
 .section_3 form 
@@ -140,14 +143,14 @@ header
     display: flex;
     align-items: center;
     flex-wrap: wrap; 
-    margin: 10px 135px; 
+    /*margin: 10px 160px; */
 }
            
 .section__3_label-Input
 {
     display: flex;
     flex-direction: column;
-    margin: auto 10px;
+    margin: 10px;
 }
 
 .section__3_label
@@ -225,4 +228,88 @@ footer p
 
 
 
-/*@media screen and (max-width: 1000px){*/
+@media screen and (max-width: 650px){
+
+    .logo{
+        font-size: 29px;
+    }
+
+    .section_main
+{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+
+.section_main p
+{
+    font-size:22px;
+    margin-bottom: 100px;  
+}
+       
+.section_main h1
+{
+    font-size: 50px;
+     margin:-80px 20px 70px;
+     line-height: 3.5rem;
+}
+
+
+
+.section_2 img
+{
+    width:380px;
+    height:466px;
+    margin: 40px 80px auto 80px;
+    opacity: 0.5;
+}
+
+.section_2 div h3
+{ 
+     font-size: 50px;
+    font-style: bold;
+    margin: 30px auto
+}
+      
+.section_2 div p
+{
+    line-height: 27px;
+    font-size: 20px;
+    height: 150px;
+    width: 300px;
+}
+
+.btn_vermelho
+{
+    margin-top:50px;
+    
+}
+
+.section_3
+{
+    padding: 39px 45px;
+}
+.section_3 h2
+{
+    font-size: 35px;
+    font-style: bold;
+    line-height: 1.2;
+    margin-bottom: 18px;
+    
+}
+
+        
+.section_3 p
+{
+    line-height: 27px;
+    font-size: 20px;
+    margin: 10px auto 30px
+}
+
+.section__3_input {
+    width: 291px;
+}
+}
