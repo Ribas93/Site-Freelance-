@@ -1,4 +1,4 @@
-let botao = document.querySelector('#botao2')
+let botao = document.querySelector('#btn_inf')
 let clientes = []
 
 botao.addEventListener('click',function (){

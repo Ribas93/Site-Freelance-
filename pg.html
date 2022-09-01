@@ -6,54 +6,65 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css" />
     <script src="https://kit.fontawesome.com/5151e150c6.js" crossorigin="anonymous"></script>
-    <title>Desafio 1</title>
+    <title>Freela</title>
   </head>
   <body>
+
     <header>
-      <p>Meu Freela</p>
-      <div >
-        <a href="https://www.linkedin.com/in/vinicius-ribas-779001200/" target="_blank"><i class="fa-brands fa-linkedin-in icones"></i></a>
-        <a href="https://www.instagram.com/invites/contact/?i=ct6f1itxseqx&utm_content=1e0lig7" target="_blank"><i id="insta" class="fa-brands fa-instagram icones"></i></a>
-        <a href="https://github.com/Ribas93" target="_blank"><i class="fa-brands fa-twitter icones"></i></a>
+      <p class="logo">Meu Freela</p>
+      <div class="icones" >
+        <a href="https://www.linkedin.com/in/vinicius-ribas-779001200/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="https://www.instagram.com/invites/contact/?i=ct6f1itxseqx&utm_content=1e0lig7" target="_blank"><i  class="fa-brands fa-instagram"></i></a>
+        <a href="https://github.com/Ribas93" target="_blank"><i class="fa-brands fa-twitter"></i></a>
       </div>
     </header>
-    <section id="sec1">
+
+    <section class="section_main">
       <p>Desenvolvedores pronto para ação.</p>
       <h1>Seu Projeto pronto <br>na velocidade da luz</h1>
-      <a href="#botao2"><button class="icones"> Peça uma reunião </button></a>
+      <a href="#res"><button class="btn btn_vermelho"> Peça uma reunião </button></a>
     </section>
-    <section >
-      <section id="sec2">
-        <div id="textoSec2">
+
+    <div class="faixa"></div>
+
+    <section class="section_2" >
+        <div>
           <h3>Nossa Iniciativa</h3>
           <p>
              Somos desenvolvedores que se dedicam a fazer projetos perfeitos e entregar valor para todos os seus clientes. Gostamos de ver clientes satisfeitos com projetos feitos com carinho, atenção e qualidade altíssima.
           </p>
         </div>
         <img src="img/pensativo.png" alt="Homem pensativo">
-      </section>
-      <div id="faixaSec2"></div>
     </section>
-    <section id="sec3">
-      <h2>Mande um oi, ligamos para você!</h2>
-      <p>Preencha seus dados para que a gente possa entrar em contato.</p>
-      <form >
-        <div class="labInp">
-          <label class="label"> Whatsapp:</label>
-          <input id="celular" class="caixaInp" type="text" placeholder="(99) 99999-9999" required>
+
+    <div class="faixa"></div>
+
+    <section class="section_3">
+      <h2 class="margin_sec3">
+        Mande um oi, ligamos para você!
+      </h2>
+      <p class="margin_sec3">
+        Preencha seus dados para que a gente possa entrar em contato.
+      </p>
+      <form class="margin_sec3">
+        <div class="section__3_label-Input">
+          <label class="section__3_label"> Whatsapp:</label>
+          <input id="celular" class="section__3_input" type="text" placeholder="(99) 99999-9999" required>
         </div>
-        <div id="caixa2Form" class="labInp">
-          <label class="label">Nome Completo:</label>
-          <input id="nome" class="caixaInp" type="text" placeholder="Ex: Mateus Ávila Isidoro" required>
+        <div  class="section__3_label-Input ">
+          <label class="section__3_label">Nome Completo:</label>
+          <input id="nome" class="section__3_input" type="text" placeholder="Ex: Mateus Ávila Isidoro" required>
         </div>
-        <input type="button" id="botao2" class="icones" value="Peça uma reunião">
+        <input type="button" id="btn_inf" class="btn btn_verde" value="Peça uma reunião">
       </form>
       <div id="res"></div>
     </section>
+
     <script src="funcoes.js"></script>
+
     <footer>
-      <p id="footerP">Desafio 1 - front-end iniciante<br>
-                         Iniciativa <strong>Pessoas de Tech</strong>
+      <p>
+          Desafio 1 - front-end iniciante<br>Iniciativa <strong>Pessoas de Tech</strong>
       </p>
     </footer>
   </body>
